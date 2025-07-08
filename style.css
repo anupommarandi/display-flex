@@ -1,0 +1,33 @@
+body{ 
+    margin: 0 auto;
+    background-color: aqua;
+    max-width: 1170px;
+
+}
+.card{
+    padding: 15px;
+    
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px red;
+    border: 2px solid black;
+    width: 300px;
+    
+}
+
+.card img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.container{ 
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+
+button{
+    background-color: azure;
+    border-radius: 1.25rem;
+    cursor: pointer;
+}
